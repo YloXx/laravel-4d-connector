@@ -1,0 +1,22 @@
+{
+    "name": "jouw-gebruikersnaam/laravel-4d-connector",
+    "description": "Een Laravel package voor het verbinden met een 4D-database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jouw Naam",
+            "email": "jouw-email@voorbeeld.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JouwGebruikersnaam\\Laravel4DConnector\\": "src/"
+        }
+    }
+}
